@@ -2,10 +2,10 @@
   "name": "lunex-team-backend",
   "version": "1.0.0",
   "scripts": {
-    "dev": "tsx watch src/index.ts",
-    "build": "tsc",
-    "start": "node dist/index.js"
-  },
+  "dev": "tsx watch src/index.ts",
+  "start": "node dist/index.js",
+  "build": "tsc"
+},
   "dependencies": {
     "@prisma/client": "^6.0.0",
     "bcrypt": "^5.1.1",
