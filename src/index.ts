@@ -28,8 +28,10 @@ app.get("/", (_, res) => {
   });
 });
 
-app.listen(process.env.PORT, () => {
-  console.log(`API läuft auf Port ${process.env.PORT}`);
+const PORT = process.env.PORT;
+
+app.listen(PORT, () => {
+  console.log("Running on Railway port");
 });
 
 client.login(process.env.DISCORD_TOKEN);
